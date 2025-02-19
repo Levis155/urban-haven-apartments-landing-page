@@ -42,6 +42,12 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-height: 37.5em) {
+  .hero {
+    height: 65rem;
+  }
+}
+
 @media screen and (max-width: 50em) {
   .hero-title,
   .hero-text {
